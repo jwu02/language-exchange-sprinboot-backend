@@ -6,6 +6,6 @@ import com.example.languageexchangebackend.model.User;
 import com.example.languageexchangebackend.response.LoginMessage;
 
 public interface UserService {
-    String registerUser(UserDTO userDTO);
+    User registerUser(UserDTO userDTO);
     LoginMessage loginUser(LoginDTO loginDTO);
 }

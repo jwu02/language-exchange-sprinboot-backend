@@ -22,8 +22,7 @@ public class UserServiceImpl implements UserService {
 
 
     @Override
-    public String registerUser(UserDTO userDTO) {
-        System.out.println("REGISTERING USER");
+    public User registerUser(UserDTO userDTO) {
         User user = new User(
                 userDTO.getId(),
                 userDTO.getEmail(),
@@ -33,7 +32,7 @@ public class UserServiceImpl implements UserService {
 
         userRepository.save(user);
 
-        return user.getUsername();
+        return user;
     }
 
     @Override
@@ -47,7 +46,7 @@ public class UserServiceImpl implements UserService {
             if (isPwdRight) {
                 Optional<User> user = userRepository.findOneByEmailAndPassword(loginDTO.getEmail(), encodedPassword);
                 if (user.isPresent()) {
-                    return new LoginMessage("Login Success", true);
+                    return new LoginMessage("Login Success", true, user.get());
                 } else {
                     return new LoginMessage("Login Failed", false);
                 }
