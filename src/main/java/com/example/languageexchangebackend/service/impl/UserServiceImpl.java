@@ -27,7 +27,10 @@ public class UserServiceImpl implements UserService {
                 userDTO.getId(),
                 userDTO.getEmail(),
                 userDTO.getUsername(),
-                this.passwordEncoder.encode(userDTO.getPassword())
+                this.passwordEncoder.encode(userDTO.getPassword()),
+                userDTO.getDob(),
+                userDTO.getGender(),
+                userDTO.getSelfIntroduction()
         );
 
         userRepository.save(user);
@@ -46,15 +49,15 @@ public class UserServiceImpl implements UserService {
             if (isPwdRight) {
                 Optional<User> user = userRepository.findOneByEmailAndPassword(loginDTO.getEmail(), encodedPassword);
                 if (user.isPresent()) {
-                    return new LoginMessage("Login Success", true, user.get());
+                    return new LoginMessage("Login success", true, user.get());
                 } else {
-                    return new LoginMessage("Login Failed", false);
+                    return new LoginMessage("Login failed.", false);
                 }
             } else {
-                return new LoginMessage("password Not Match", false);
+                return new LoginMessage("Incorrect password, please try again.", false);
             }
-        }else {
-            return new LoginMessage("Email not exits", false);
+        } else {
+            return new LoginMessage("Email doesn't exist, please register an account.", false);
         }
     }
 }

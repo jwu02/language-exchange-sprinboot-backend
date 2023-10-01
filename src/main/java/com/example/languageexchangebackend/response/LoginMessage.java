@@ -18,6 +18,10 @@ public class LoginMessage {
         this.user = user;
     }
 
+    // https://stackoverflow.com/questions/28466207/could-not-find-acceptable-representation-using-spring-boot-starter-web
+    // careful with sending response objects back to client
+    // need both getter and setter
+
     public String getMessage() {
         return message;
     }
