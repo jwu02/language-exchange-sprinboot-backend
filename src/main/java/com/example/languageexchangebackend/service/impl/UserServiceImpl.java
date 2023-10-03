@@ -2,6 +2,7 @@ package com.example.languageexchangebackend.service.impl;
 
 import com.example.languageexchangebackend.dto.LoginDTO;
 import com.example.languageexchangebackend.dto.UserDTO;
+import com.example.languageexchangebackend.model.Language;
 import com.example.languageexchangebackend.model.User;
 import com.example.languageexchangebackend.repository.UserRepository;
 import com.example.languageexchangebackend.response.LoginMessage;
@@ -10,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import java.util.Collections;
 import java.util.Optional;
 
 @Service
@@ -30,6 +32,8 @@ public class UserServiceImpl implements UserService {
                 this.passwordEncoder.encode(userDTO.getPassword()),
                 userDTO.getDob(),
                 userDTO.getGender(),
+                Collections.emptySet(),
+                Collections.emptySet(),
                 userDTO.getSelfIntroduction()
         );
 

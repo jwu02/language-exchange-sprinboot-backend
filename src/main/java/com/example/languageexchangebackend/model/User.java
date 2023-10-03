@@ -2,6 +2,7 @@ package com.example.languageexchangebackend.model;
 
 import javax.persistence.*;
 import java.time.LocalDate;
+import java.util.Set;
 
 @Entity
 @Table(name = "users")
@@ -26,19 +27,29 @@ public class User {
     @Column(name = "gender", nullable = false)
     private Gender gender;
 
-    @Column(name = "selfIntroduction")
+    // https://www.baeldung.com/jpa-many-to-many
+    // provide name of field in TeachLanguage which maps the relationship
+    @OneToMany(mappedBy = "user")
+    private Set<TeachLanguage> teachLanguages;
+
+    @OneToMany(mappedBy = "user")
+    private Set<LearnLanguage> learnLanguages;
+
+    @Column(name = "self_introduction")
     private String selfIntroduction;
 
     public User() {
     }
 
-    public User(long id, String email, String username, String password, LocalDate dob, Gender gender, String selfIntroduction) {
+    public User(long id, String email, String username, String password, LocalDate dob, Gender gender, Set<TeachLanguage> teachLanguages, Set<LearnLanguage> learnLanguages, String selfIntroduction) {
         this.id = id;
         this.email = email;
         this.username = username;
         this.password = password;
         this.dob = dob;
         this.gender = gender;
+        this.teachLanguages = teachLanguages;
+        this.learnLanguages = learnLanguages;
         this.selfIntroduction = selfIntroduction;
     }
 
@@ -84,6 +95,22 @@ public class User {
 
     public void setGender(Gender gender) {
         this.gender = gender;
+    }
+
+    public Set<TeachLanguage> getTeachLanguages() {
+        return teachLanguages;
+    }
+
+    public void setTeachLanguages(Set<TeachLanguage> teachLanguages) {
+        this.teachLanguages = teachLanguages;
+    }
+
+    public Set<LearnLanguage> getLearnLanguages() {
+        return learnLanguages;
+    }
+
+    public void setLearnLanguages(Set<LearnLanguage> learnLanguages) {
+        this.learnLanguages = learnLanguages;
     }
 
     public String getSelfIntroduction() {

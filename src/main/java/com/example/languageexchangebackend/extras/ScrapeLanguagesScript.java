@@ -1,6 +1,7 @@
 package com.example.languageexchangebackend.extras;
 
 import com.example.languageexchangebackend.model.Language;
+import com.example.languageexchangebackend.model.User;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import org.jsoup.Jsoup;
@@ -12,7 +13,9 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
+import java.util.Set;
 
 public class ScrapeLanguagesScript {
     public static void main(String[] args) {
@@ -41,7 +44,7 @@ public class ScrapeLanguagesScript {
                 Element languageCodeElement = languageRowElements.get(i).getElementsByTag("td").get(1);
                 String languageCode = languageCodeElement.text();
 
-                scrapedLanguages.add(new Language(languageName, languageCode, ""));
+                scrapedLanguages.add(new Language(languageName, languageCode, "", Collections.emptySet(), Collections.emptySet()));
             }
         } catch (IOException e) {
             e.printStackTrace();

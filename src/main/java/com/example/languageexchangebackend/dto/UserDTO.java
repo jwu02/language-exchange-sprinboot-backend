@@ -1,8 +1,10 @@
 package com.example.languageexchangebackend.dto;
 
 import com.example.languageexchangebackend.model.Gender;
+import com.example.languageexchangebackend.model.TeachLanguage;
 
 import java.time.LocalDate;
+import java.util.Set;
 
 public class UserDTO {
 
@@ -12,6 +14,7 @@ public class UserDTO {
     private String password;
     private LocalDate dob;
     private Gender gender;
+    private Set<TeachLanguage> teachLanguages;
     private String selfIntroduction;
 
     public UserDTO() {

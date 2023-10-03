@@ -4,12 +4,13 @@ public class LanguageDTO {
     private long id;
     private String name;
     private String code;
-//    private String nameInLanguage;
+    private String nameInLanguage;
 
-    public LanguageDTO(long id, String name, String code) {
+    public LanguageDTO(long id, String name, String code, String nameInLanguage) {
         this.id = id;
         this.name = name;
         this.code = code;
+        this.nameInLanguage = nameInLanguage;
     }
 
     public long getId() {
@@ -36,11 +37,11 @@ public class LanguageDTO {
         this.code = code;
     }
 
-//    public String getNameInLanguage() {
-//        return nameInLanguage;
-//    }
-//
-//    public void setNameInLanguage(String nameInLanguage) {
-//        this.nameInLanguage = nameInLanguage;
-//    }
+    public String getNameInLanguage() {
+        return nameInLanguage;
+    }
+
+    public void setNameInLanguage(String nameInLanguage) {
+        this.nameInLanguage = nameInLanguage;
+    }
 }
