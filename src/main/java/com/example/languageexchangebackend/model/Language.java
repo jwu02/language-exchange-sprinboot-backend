@@ -32,6 +32,13 @@ public class Language {
     public Language() {
     }
 
+    public Language(String name, String code, String nameInLanguage) {
+        super();
+        this.name = name;
+        this.code = code;
+        this.nameInLanguage = nameInLanguage;
+    }
+
     public Language(String name, String code, String nameInLanguage, Set<TeachLanguage> teachers, Set<LearnLanguage> learners) {
         super();
 //        this.id = id;

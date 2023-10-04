@@ -1,15 +1,15 @@
 [
   {
     "id": 0,
-    "name": "Abkhazian",
+    "name": "Abkhaz",
     "code": "ab",
-    "nameInLanguage": ""
+    "nameInLanguage": "Аԥсуа бызшәа"
   },
   {
     "id": 0,
     "name": "Afar",
     "code": "aa",
-    "nameInLanguage": ""
+    "nameInLanguage": "Qafar af"
   },
   {
     "id": 0,
@@ -21,49 +21,49 @@
     "id": 0,
     "name": "Akan",
     "code": "ak",
-    "nameInLanguage": ""
+    "nameInLanguage": "Ákán"
   },
   {
     "id": 0,
     "name": "Albanian",
     "code": "sq",
-    "nameInLanguage": ""
+    "nameInLanguage": "shqip"
   },
   {
     "id": 0,
     "name": "Amharic",
     "code": "am",
-    "nameInLanguage": ""
+    "nameInLanguage": "አማርኛ"
   },
   {
     "id": 0,
     "name": "Arabic",
     "code": "ar",
-    "nameInLanguage": ""
+    "nameInLanguage": "اَلْعَرَبِيَّةُ‎"
   },
   {
     "id": 0,
     "name": "Aragonese",
     "code": "an",
-    "nameInLanguage": ""
+    "nameInLanguage": "aragonés"
   },
   {
     "id": 0,
     "name": "Armenian",
     "code": "hy",
-    "nameInLanguage": ""
+    "nameInLanguage": "հայերէն/հայերեն"
   },
   {
     "id": 0,
     "name": "Assamese",
     "code": "as",
-    "nameInLanguage": ""
+    "nameInLanguage": "অসমীয়া"
   },
   {
     "id": 0,
-    "name": "Avaric",
+    "name": "Avar",
     "code": "av",
-    "nameInLanguage": ""
+    "nameInLanguage": "ماغارول ماج"
   },
   {
     "id": 0,
@@ -81,13 +81,13 @@
     "id": 0,
     "name": "Azerbaijani",
     "code": "az",
-    "nameInLanguage": ""
+    "nameInLanguage": "Azərbaycan dili"
   },
   {
     "id": 0,
     "name": "Bambara",
     "code": "bm",
-    "nameInLanguage": ""
+    "nameInLanguage": "Bámánánkán"
   },
   {
     "id": 0,
@@ -99,37 +99,37 @@
     "id": 0,
     "name": "Basque",
     "code": "eu",
-    "nameInLanguage": ""
+    "nameInLanguage": "euskara"
   },
   {
     "id": 0,
     "name": "Belarusian",
     "code": "be",
-    "nameInLanguage": ""
+    "nameInLanguage": "беларуская мова"
   },
   {
     "id": 0,
     "name": "Bengali",
     "code": "bn",
-    "nameInLanguage": ""
+    "nameInLanguage": "বাংলা"
   },
   {
     "id": 0,
     "name": "Bislama",
     "code": "bi",
-    "nameInLanguage": ""
+    "nameInLanguage": "Bislama"
   },
   {
     "id": 0,
     "name": "Bosnian",
     "code": "bs",
-    "nameInLanguage": ""
+    "nameInLanguage": "bosanski"
   },
   {
     "id": 0,
     "name": "Breton",
     "code": "br",
-    "nameInLanguage": ""
+    "nameInLanguage": "brezhoneg"
   },
   {
     "id": 0,
@@ -147,23 +147,23 @@
     "id": 0,
     "name": "Catalan",
     "code": "ca",
-    "nameInLanguage": ""
+    "nameInLanguage": "català"
   },
   {
     "id": 0,
-    "name": "Chamorro",
+    "name": "Chamoru",
     "code": "ch",
-    "nameInLanguage": ""
+    "nameInLanguage": "Finuʼ Chamoru"
   },
   {
     "id": 0,
     "name": "Chechen",
     "code": "ce",
-    "nameInLanguage": ""
+    "nameInLanguage": "Нохчийн мотт"
   },
   {
     "id": 0,
-    "name": "Chichewa",
+    "name": "Chewa",
     "code": "ny",
     "nameInLanguage": ""
   },
@@ -171,67 +171,67 @@
     "id": 0,
     "name": "Chinese",
     "code": "zh",
-    "nameInLanguage": ""
+    "nameInLanguage": "汉语"
   },
   {
     "id": 0,
     "name": "Church Slavonic",
     "code": "cu",
-    "nameInLanguage": ""
+    "nameInLanguage": "Церковнославѧ́нскїй Ѧ҆зы́къ"
   },
   {
     "id": 0,
     "name": "Chuvash",
     "code": "cv",
-    "nameInLanguage": ""
+    "nameInLanguage": "Чӑвашла"
   },
   {
     "id": 0,
     "name": "Cornish",
     "code": "kw",
-    "nameInLanguage": ""
+    "nameInLanguage": "Kernewek"
   },
   {
     "id": 0,
     "name": "Corsican",
     "code": "co",
-    "nameInLanguage": ""
+    "nameInLanguage": "corsu"
   },
   {
     "id": 0,
     "name": "Cree",
     "code": "cr",
-    "nameInLanguage": ""
+    "nameInLanguage": "ᓀᐦᐃᔭᐍᐏᐣ"
   },
   {
     "id": 0,
     "name": "Croatian",
     "code": "hr",
-    "nameInLanguage": ""
+    "nameInLanguage": "hrvatski"
   },
   {
     "id": 0,
     "name": "Czech",
     "code": "cs",
-    "nameInLanguage": ""
+    "nameInLanguage": "čeština"
   },
   {
     "id": 0,
     "name": "Danish",
     "code": "da",
-    "nameInLanguage": ""
+    "nameInLanguage": "dansk"
   },
   {
     "id": 0,
-    "name": "Divehi",
+    "name": "Dhivehi",
     "code": "dv",
-    "nameInLanguage": ""
+    "nameInLanguage": "ދިވެހި"
   },
   {
     "id": 0,
     "name": "Dutch",
     "code": "nl",
-    "nameInLanguage": ""
+    "nameInLanguage": "Nederlands"
   },
   {
     "id": 0,
@@ -249,13 +249,13 @@
     "id": 0,
     "name": "Esperanto",
     "code": "eo",
-    "nameInLanguage": ""
+    "nameInLanguage": "Lingvo Internacia"
   },
   {
     "id": 0,
     "name": "Estonian",
     "code": "et",
-    "nameInLanguage": ""
+    "nameInLanguage": "eesti keel"
   },
   {
     "id": 0,
@@ -267,61 +267,61 @@
     "id": 0,
     "name": "Faroese",
     "code": "fo",
-    "nameInLanguage": ""
+    "nameInLanguage": "føroyskt mál"
   },
   {
     "id": 0,
     "name": "Fijian",
     "code": "fj",
-    "nameInLanguage": ""
+    "nameInLanguage": "Vosa Vaka-Viti"
   },
   {
     "id": 0,
     "name": "Finnish",
     "code": "fi",
-    "nameInLanguage": ""
+    "nameInLanguage": "suomi"
   },
   {
     "id": 0,
     "name": "French",
     "code": "fr",
-    "nameInLanguage": ""
+    "nameInLanguage": "français"
   },
   {
     "id": 0,
-    "name": "Western Frisian",
+    "name": "West Frisian",
     "code": "fy",
-    "nameInLanguage": ""
+    "nameInLanguage": "Frysk"
   },
   {
     "id": 0,
-    "name": "Fulah",
+    "name": "Fulani",
     "code": "ff",
-    "nameInLanguage": ""
+    "nameInLanguage": "𞤊𞤵𞤤𞤬𞤵𞤤𞤣𞤫"
   },
   {
     "id": 0,
-    "name": "Gaelic",
+    "name": "Scottish Gaelic",
     "code": "gd",
-    "nameInLanguage": ""
+    "nameInLanguage": "Gàidhlig"
   },
   {
     "id": 0,
     "name": "Galician",
     "code": "gl",
-    "nameInLanguage": ""
+    "nameInLanguage": "galego"
   },
   {
     "id": 0,
     "name": "Ganda",
     "code": "lg",
-    "nameInLanguage": ""
+    "nameInLanguage": "Oluganda"
   },
   {
     "id": 0,
     "name": "Georgian",
     "code": "ka",
-    "nameInLanguage": ""
+    "nameInLanguage": "ქართული ენა"
   },
   {
     "id": 0,
@@ -333,17 +333,17 @@
     "id": 0,
     "name": "Greek",
     "code": "el",
-    "nameInLanguage": ""
+    "nameInLanguage": "ελληνικά"
   },
   {
     "id": 0,
-    "name": "Kalaallisut",
+    "name": "Greenlandic",
     "code": "kl",
-    "nameInLanguage": ""
+    "nameInLanguage": "kalaallisut"
   },
   {
     "id": 0,
-    "name": "Guarani",
+    "name": "Guaraní",
     "code": "gn",
     "nameInLanguage": ""
   },
@@ -355,15 +355,15 @@
   },
   {
     "id": 0,
-    "name": "Haitian",
+    "name": "Haitian Creole",
     "code": "ht",
-    "nameInLanguage": ""
+    "nameInLanguage": "kreyòl ayisyen"
   },
   {
     "id": 0,
     "name": "Hausa",
     "code": "ha",
-    "nameInLanguage": ""
+    "nameInLanguage": "هَرْشٜن هَوْسَ"
   },
   {
     "id": 0,
@@ -381,7 +381,7 @@
     "id": 0,
     "name": "Hindi",
     "code": "hi",
-    "nameInLanguage": ""
+    "nameInLanguage": "हिन्दी"
   },
   {
     "id": 0,
@@ -399,7 +399,7 @@
     "id": 0,
     "name": "Icelandic",
     "code": "is",
-    "nameInLanguage": ""
+    "nameInLanguage": "íslenska"
   },
   {
     "id": 0,
@@ -411,19 +411,19 @@
     "id": 0,
     "name": "Igbo",
     "code": "ig",
-    "nameInLanguage": ""
+    "nameInLanguage": "Ásụ̀sụ́ Ìgbò"
   },
   {
     "id": 0,
     "name": "Indonesian",
     "code": "id",
-    "nameInLanguage": ""
+    "nameInLanguage": "Bahasa Indonesia"
   },
   {
     "id": 0,
     "name": "Interlingua",
     "code": "ia",
-    "nameInLanguage": ""
+    "nameInLanguage": "interlingua"
   },
   {
     "id": 0,
@@ -435,11 +435,11 @@
     "id": 0,
     "name": "Inuktitut",
     "code": "iu",
-    "nameInLanguage": ""
+    "nameInLanguage": "ᐃᓄᒃᑎᑐᑦ"
   },
   {
     "id": 0,
-    "name": "Inupiaq",
+    "name": "Iñupiaq",
     "code": "ik",
     "nameInLanguage": ""
   },
@@ -447,37 +447,37 @@
     "id": 0,
     "name": "Irish",
     "code": "ga",
-    "nameInLanguage": ""
+    "nameInLanguage": "Gaeilge"
   },
   {
     "id": 0,
     "name": "Italian",
     "code": "it",
-    "nameInLanguage": ""
+    "nameInLanguage": "italiano"
   },
   {
     "id": 0,
     "name": "Japanese",
     "code": "ja",
-    "nameInLanguage": ""
+    "nameInLanguage": "日本語"
   },
   {
     "id": 0,
     "name": "Javanese",
     "code": "jv",
-    "nameInLanguage": ""
+    "nameInLanguage": "basa Jawa ꦧꦱꦗꦮ بَاسَا جَاوَا‎"
   },
   {
     "id": 0,
     "name": "Kannada",
     "code": "kn",
-    "nameInLanguage": ""
+    "nameInLanguage": "ಕನ್ನಡ"
   },
   {
     "id": 0,
     "name": "Kanuri",
     "code": "kr",
-    "nameInLanguage": ""
+    "nameInLanguage": "Kànùrí"
   },
   {
     "id": 0,
@@ -489,13 +489,13 @@
     "id": 0,
     "name": "Kazakh",
     "code": "kk",
-    "nameInLanguage": ""
+    "nameInLanguage": "қазақша"
   },
   {
     "id": 0,
-    "name": "Central Khmer",
+    "name": "Khmer",
     "code": "km",
-    "nameInLanguage": ""
+    "nameInLanguage": "ភាសាខ្មែរ"
   },
   {
     "id": 0,
@@ -511,13 +511,13 @@
   },
   {
     "id": 0,
-    "name": "Kirghiz",
+    "name": "Kyrgyz",
     "code": "ky",
-    "nameInLanguage": ""
+    "nameInLanguage": "Кыргыз тили"
   },
   {
     "id": 0,
-    "name": "Komi",
+    "name": "Komi language",
     "code": "kv",
     "nameInLanguage": ""
   },
@@ -531,11 +531,11 @@
     "id": 0,
     "name": "Korean",
     "code": "ko",
-    "nameInLanguage": ""
+    "nameInLanguage": "한국어"
   },
   {
     "id": 0,
-    "name": "Kuanyama",
+    "name": "Kwanyama",
     "code": "kj",
     "nameInLanguage": ""
   },
@@ -543,13 +543,13 @@
     "id": 0,
     "name": "Kurdish",
     "code": "ku",
-    "nameInLanguage": ""
+    "nameInLanguage": "Kurdî"
   },
   {
     "id": 0,
     "name": "Lao",
     "code": "lo",
-    "nameInLanguage": ""
+    "nameInLanguage": "ພາສາລາວ"
   },
   {
     "id": 0,
@@ -565,9 +565,9 @@
   },
   {
     "id": 0,
-    "name": "Limburgan",
+    "name": "Limburgish",
     "code": "li",
-    "nameInLanguage": ""
+    "nameInLanguage": "Limburgs"
   },
   {
     "id": 0,
@@ -579,11 +579,11 @@
     "id": 0,
     "name": "Lithuanian",
     "code": "lt",
-    "nameInLanguage": ""
+    "nameInLanguage": "lietuvių kalba"
   },
   {
     "id": 0,
-    "name": "Luba-Katanga",
+    "name": "Kiluba",
     "code": "lu",
     "nameInLanguage": ""
   },
@@ -597,25 +597,25 @@
     "id": 0,
     "name": "Macedonian",
     "code": "mk",
-    "nameInLanguage": ""
+    "nameInLanguage": "македонски"
   },
   {
     "id": 0,
     "name": "Malagasy",
     "code": "mg",
-    "nameInLanguage": ""
+    "nameInLanguage": "malagasy"
   },
   {
     "id": 0,
     "name": "Malay",
     "code": "ms",
-    "nameInLanguage": ""
+    "nameInLanguage": "Bahasa Melayu"
   },
   {
     "id": 0,
     "name": "Malayalam",
     "code": "ml",
-    "nameInLanguage": ""
+    "nameInLanguage": "malayāḷaṁ"
   },
   {
     "id": 0,
@@ -627,35 +627,35 @@
     "id": 0,
     "name": "Manx",
     "code": "gv",
-    "nameInLanguage": ""
+    "nameInLanguage": "Gaelg"
   },
   {
     "id": 0,
-    "name": "Maori",
+    "name": "Māori",
     "code": "mi",
-    "nameInLanguage": ""
+    "nameInLanguage": "Māori"
   },
   {
     "id": 0,
     "name": "Marathi",
     "code": "mr",
-    "nameInLanguage": ""
+    "nameInLanguage": "Marāṭhī"
   },
   {
     "id": 0,
     "name": "Marshallese",
     "code": "mh",
-    "nameInLanguage": ""
+    "nameInLanguage": "Kajin M̧ajel‌̧"
   },
   {
     "id": 0,
     "name": "Mongolian",
     "code": "mn",
-    "nameInLanguage": ""
+    "nameInLanguage": "монгол хэл"
   },
   {
     "id": 0,
-    "name": "Nauru",
+    "name": "Nauruan",
     "code": "na",
     "nameInLanguage": ""
   },
@@ -663,17 +663,17 @@
     "id": 0,
     "name": "Navajo",
     "code": "nv",
-    "nameInLanguage": ""
+    "nameInLanguage": "Diné Bizaad"
   },
   {
     "id": 0,
-    "name": "North Ndebele",
+    "name": "Northern Ndebele",
     "code": "nd",
     "nameInLanguage": ""
   },
   {
     "id": 0,
-    "name": "South Ndebele",
+    "name": "Southern Ndebele",
     "code": "nr",
     "nameInLanguage": ""
   },
@@ -687,13 +687,13 @@
     "id": 0,
     "name": "Nepali",
     "code": "ne",
-    "nameInLanguage": ""
+    "nameInLanguage": "नेपाली"
   },
   {
     "id": 0,
     "name": "Norwegian",
     "code": "no",
-    "nameInLanguage": ""
+    "nameInLanguage": "norsk"
   },
   {
     "id": 0,
@@ -709,27 +709,27 @@
   },
   {
     "id": 0,
-    "name": "Sichuan Yi",
+    "name": "Nuosu",
     "code": "ii",
-    "nameInLanguage": ""
+    "nameInLanguage": "ꆈꌠꉙ"
   },
   {
     "id": 0,
     "name": "Occitan",
     "code": "oc",
-    "nameInLanguage": ""
+    "nameInLanguage": "lenga d\u0027òc"
   },
   {
     "id": 0,
-    "name": "Ojibwa",
+    "name": "Ojibwe",
     "code": "oj",
-    "nameInLanguage": ""
+    "nameInLanguage": "ᐊᓂᐦᔑᓈᐯᒧᐎᓐ"
   },
   {
     "id": 0,
-    "name": "Oriya",
+    "name": "Odia",
     "code": "or",
-    "nameInLanguage": ""
+    "nameInLanguage": "ଓଡ଼ିଆ"
   },
   {
     "id": 0,
@@ -741,47 +741,47 @@
     "id": 0,
     "name": "Ossetian",
     "code": "os",
-    "nameInLanguage": ""
+    "nameInLanguage": "ирон ӕвзаг"
   },
   {
     "id": 0,
     "name": "Pali",
     "code": "pi",
-    "nameInLanguage": ""
+    "nameInLanguage": "𑀧𑀸𑀮𑀺"
   },
   {
     "id": 0,
     "name": "Pashto",
     "code": "ps",
-    "nameInLanguage": ""
+    "nameInLanguage": "پښتو"
   },
   {
     "id": 0,
     "name": "Persian",
     "code": "fa",
-    "nameInLanguage": ""
+    "nameInLanguage": "فارسی"
   },
   {
     "id": 0,
     "name": "Polish",
     "code": "pl",
-    "nameInLanguage": ""
+    "nameInLanguage": "polski"
   },
   {
     "id": 0,
     "name": "Portuguese",
     "code": "pt",
-    "nameInLanguage": ""
+    "nameInLanguage": "português"
   },
   {
     "id": 0,
     "name": "Punjabi",
     "code": "pa",
-    "nameInLanguage": ""
+    "nameInLanguage": "ਪੰਜਾਬੀ"
   },
   {
     "id": 0,
-    "name": "Quechua",
+    "name": "Quechuan",
     "code": "qu",
     "nameInLanguage": ""
   },
@@ -795,7 +795,7 @@
     "id": 0,
     "name": "Romansh",
     "code": "rm",
-    "nameInLanguage": ""
+    "nameInLanguage": "romontsch"
   },
   {
     "id": 0,
@@ -807,13 +807,13 @@
     "id": 0,
     "name": "Russian",
     "code": "ru",
-    "nameInLanguage": ""
+    "nameInLanguage": "русский язык"
   },
   {
     "id": 0,
-    "name": "Northern Sami",
+    "name": "Northern Sámi",
     "code": "se",
-    "nameInLanguage": ""
+    "nameInLanguage": "davvisámegiella"
   },
   {
     "id": 0,
@@ -825,25 +825,25 @@
     "id": 0,
     "name": "Sango",
     "code": "sg",
-    "nameInLanguage": ""
+    "nameInLanguage": "yângâ tî sängö"
   },
   {
     "id": 0,
     "name": "Sanskrit",
     "code": "sa",
-    "nameInLanguage": ""
+    "nameInLanguage": "संस्कृत-"
   },
   {
     "id": 0,
     "name": "Sardinian",
     "code": "sc",
-    "nameInLanguage": ""
+    "nameInLanguage": "sardu"
   },
   {
     "id": 0,
     "name": "Serbian",
     "code": "sr",
-    "nameInLanguage": ""
+    "nameInLanguage": "српски језик"
   },
   {
     "id": 0,
@@ -861,29 +861,29 @@
     "id": 0,
     "name": "Sinhala",
     "code": "si",
-    "nameInLanguage": ""
+    "nameInLanguage": "සිංහල"
   },
   {
     "id": 0,
     "name": "Slovak",
     "code": "sk",
-    "nameInLanguage": ""
+    "nameInLanguage": "slovenčina"
   },
   {
     "id": 0,
-    "name": "Slovenian",
+    "name": "Slovene",
     "code": "sl",
-    "nameInLanguage": ""
+    "nameInLanguage": "slovenščina"
   },
   {
     "id": 0,
     "name": "Somali",
     "code": "so",
-    "nameInLanguage": ""
+    "nameInLanguage": "Af Soomaali"
   },
   {
     "id": 0,
-    "name": "Southern Sotho",
+    "name": "Sotho",
     "code": "st",
     "nameInLanguage": ""
   },
@@ -891,23 +891,23 @@
     "id": 0,
     "name": "Spanish",
     "code": "es",
-    "nameInLanguage": ""
+    "nameInLanguage": "español"
   },
   {
     "id": 0,
     "name": "Sundanese",
     "code": "su",
-    "nameInLanguage": ""
+    "nameInLanguage": "basa Sunda"
   },
   {
     "id": 0,
     "name": "Swahili",
     "code": "sw",
-    "nameInLanguage": ""
+    "nameInLanguage": "Kiswahili"
   },
   {
     "id": 0,
-    "name": "Swati",
+    "name": "Swazi",
     "code": "ss",
     "nameInLanguage": ""
   },
@@ -915,53 +915,53 @@
     "id": 0,
     "name": "Swedish",
     "code": "sv",
-    "nameInLanguage": ""
+    "nameInLanguage": "Svenska"
   },
   {
     "id": 0,
     "name": "Tagalog",
     "code": "tl",
-    "nameInLanguage": ""
+    "nameInLanguage": "Wikang Tagalog"
   },
   {
     "id": 0,
     "name": "Tahitian",
     "code": "ty",
-    "nameInLanguage": ""
+    "nameInLanguage": "Reo Tahiti"
   },
   {
     "id": 0,
     "name": "Tajik",
     "code": "tg",
-    "nameInLanguage": ""
+    "nameInLanguage": "Tojikī"
   },
   {
     "id": 0,
     "name": "Tamil",
     "code": "ta",
-    "nameInLanguage": ""
+    "nameInLanguage": "தமிழ்"
   },
   {
     "id": 0,
     "name": "Tatar",
     "code": "tt",
-    "nameInLanguage": ""
+    "nameInLanguage": "татар теле"
   },
   {
     "id": 0,
     "name": "Telugu",
     "code": "te",
-    "nameInLanguage": ""
+    "nameInLanguage": "తెలుగు"
   },
   {
     "id": 0,
     "name": "Thai",
     "code": "th",
-    "nameInLanguage": ""
+    "nameInLanguage": "ภาษาไทย"
   },
   {
     "id": 0,
-    "name": "Tibetan",
+    "name": "Lhasa Tibetan",
     "code": "bo",
     "nameInLanguage": ""
   },
@@ -969,19 +969,19 @@
     "id": 0,
     "name": "Tigrinya",
     "code": "ti",
-    "nameInLanguage": ""
+    "nameInLanguage": "ትግርኛ"
   },
   {
     "id": 0,
-    "name": "Tonga",
+    "name": "Tongan",
     "code": "to",
-    "nameInLanguage": ""
+    "nameInLanguage": "lea faka-Tonga"
   },
   {
     "id": 0,
     "name": "Tsonga",
     "code": "ts",
-    "nameInLanguage": ""
+    "nameInLanguage": "Xitsonga"
   },
   {
     "id": 0,
@@ -993,13 +993,13 @@
     "id": 0,
     "name": "Turkish",
     "code": "tr",
-    "nameInLanguage": ""
+    "nameInLanguage": "Türkçe"
   },
   {
     "id": 0,
     "name": "Turkmen",
     "code": "tk",
-    "nameInLanguage": ""
+    "nameInLanguage": "türkmençe"
   },
   {
     "id": 0,
@@ -1009,15 +1009,15 @@
   },
   {
     "id": 0,
-    "name": "Uighur",
+    "name": "Uyghur",
     "code": "ug",
-    "nameInLanguage": ""
+    "nameInLanguage": "ئۇيغۇر تىلى"
   },
   {
     "id": 0,
     "name": "Ukrainian",
     "code": "uk",
-    "nameInLanguage": ""
+    "nameInLanguage": "українська мова"
   },
   {
     "id": 0,
@@ -1029,61 +1029,61 @@
     "id": 0,
     "name": "Uzbek",
     "code": "uz",
-    "nameInLanguage": ""
+    "nameInLanguage": "Oʻzbekcha"
   },
   {
     "id": 0,
-    "name": "Venda",
+    "name": "TshiVenda",
     "code": "ve",
-    "nameInLanguage": ""
+    "nameInLanguage": "Tshivenḓa"
   },
   {
     "id": 0,
     "name": "Vietnamese",
     "code": "vi",
-    "nameInLanguage": ""
+    "nameInLanguage": "Tiếng Việt"
   },
   {
     "id": 0,
     "name": "Volapük",
     "code": "vo",
-    "nameInLanguage": ""
+    "nameInLanguage": "Volapük"
   },
   {
     "id": 0,
     "name": "Walloon",
     "code": "wa",
-    "nameInLanguage": ""
+    "nameInLanguage": "walon"
   },
   {
     "id": 0,
     "name": "Welsh",
     "code": "cy",
-    "nameInLanguage": ""
+    "nameInLanguage": "Cymraeg"
   },
   {
     "id": 0,
     "name": "Wolof",
     "code": "wo",
-    "nameInLanguage": ""
+    "nameInLanguage": "وࣷلࣷفْ لࣵکّ"
   },
   {
     "id": 0,
     "name": "Xhosa",
     "code": "xh",
-    "nameInLanguage": ""
+    "nameInLanguage": "isiXhosa"
   },
   {
     "id": 0,
     "name": "Yiddish",
     "code": "yi",
-    "nameInLanguage": ""
+    "nameInLanguage": "ייִדיש"
   },
   {
     "id": 0,
     "name": "Yoruba",
     "code": "yo",
-    "nameInLanguage": ""
+    "nameInLanguage": "Èdè Yorùbá"
   },
   {
     "id": 0,
