@@ -1,7 +1,6 @@
 package com.example.languageexchangebackend.dto;
 
 import com.example.languageexchangebackend.model.Gender;
-import com.example.languageexchangebackend.model.TeachLanguage;
 
 import java.time.LocalDate;
 import java.util.Set;
@@ -14,19 +13,22 @@ public class UserDTO {
     private String password;
     private LocalDate dob;
     private Gender gender;
-    private Set<TeachLanguage> teachLanguages;
+    private Set<UserLanguageDTO> teachLanguages;
+    private Set<UserLanguageDTO> learnLanguages;
     private String selfIntroduction;
 
     public UserDTO() {
     }
 
-    public UserDTO(long id, String email, String username, String password, LocalDate dob, Gender gender, String selfIntroduction) {
+    public UserDTO(long id, String email, String username, String password, LocalDate dob, Gender gender, Set<UserLanguageDTO> teachLanguages, Set<UserLanguageDTO> learnLanguages, String selfIntroduction) {
         this.id = id;
         this.email = email;
         this.username = username;
         this.password = password;
         this.dob = dob;
         this.gender = gender;
+        this.teachLanguages = teachLanguages;
+        this.learnLanguages = learnLanguages;
         this.selfIntroduction = selfIntroduction;
     }
 
@@ -80,5 +82,21 @@ public class UserDTO {
 
     public void setSelfIntroduction(String selfIntroduction) {
         this.selfIntroduction = selfIntroduction;
+    }
+
+    public Set<UserLanguageDTO> getTeachLanguages() {
+        return teachLanguages;
+    }
+
+    public void setTeachLanguages(Set<UserLanguageDTO> teachLanguages) {
+        this.teachLanguages = teachLanguages;
+    }
+
+    public Set<UserLanguageDTO> getLearnLanguages() {
+        return learnLanguages;
+    }
+
+    public void setLearnLanguages(Set<UserLanguageDTO> learnLanguages) {
+        this.learnLanguages = learnLanguages;
     }
 }

@@ -1,12 +1,13 @@
 package com.example.languageexchangebackend.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonBackReference;
 
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 
 @Entity
-@Table(name = "languages")
 public class Language {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -22,31 +23,25 @@ public class Language {
     private String nameInLanguage;
 
     @OneToMany(mappedBy = "language")
-    @JsonIgnore // exclude property from serializing
-    private Set<TeachLanguage> teachers;
-
-    @OneToMany(mappedBy = "language")
-    @JsonIgnore
-    private Set<LearnLanguage> learners;
+//    @JsonIgnore // exclude property from serializing
+    @JsonBackReference
+    private Set<UserLanguage> userLanguages = new HashSet<>();
 
     public Language() {
     }
 
     public Language(String name, String code, String nameInLanguage) {
-        super();
         this.name = name;
         this.code = code;
         this.nameInLanguage = nameInLanguage;
     }
 
-    public Language(String name, String code, String nameInLanguage, Set<TeachLanguage> teachers, Set<LearnLanguage> learners) {
-        super();
-//        this.id = id;
+    public Language(long id, String name, String code, String nameInLanguage, Set<UserLanguage> userLanguages) {
+        this.id = id;
         this.name = name;
         this.code = code;
         this.nameInLanguage = nameInLanguage;
-        this.teachers = teachers;
-        this.learners = learners;
+        this.userLanguages = userLanguages;
     }
 
     public long getId() {
@@ -81,19 +76,28 @@ public class Language {
         this.nameInLanguage = nameInLanguage;
     }
 
-    public Set<TeachLanguage> getTeachers() {
-        return teachers;
+    public Set<UserLanguage> getUserLanguages() {
+        return userLanguages;
     }
 
-    public void setTeachers(Set<TeachLanguage> teachers) {
-        this.teachers = teachers;
+    public void setUserLanguages(Set<UserLanguage> userLanguages) {
+        this.userLanguages = userLanguages;
     }
 
-    public Set<LearnLanguage> getLearners() {
-        return learners;
+    public void addUserLanguage(UserLanguage userLanguage) {
+        this.userLanguages.add(userLanguage);
     }
 
-    public void setLearners(Set<LearnLanguage> learners) {
-        this.learners = learners;
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Language language = (Language) o;
+        return name.equals(language.name) && code.equals(language.code) && nameInLanguage.equals(language.nameInLanguage);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, code, nameInLanguage);
     }
 }
